@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap%22");
+
+* {
+    font-family: 'Oswald', Verdana;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    background-color: rgb(88, 127, 145);
+} 
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(77, 75, 40);
+    background-color: rgb(236, 236, 236);
+    color: rgb(0, 0, 0);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#conter {
+    display: flex;
+}
+
+#currentNumber {
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
